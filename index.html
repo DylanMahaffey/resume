@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Dylan's Resume</title>
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|EB+Garamond|Lato" rel="stylesheet">
     <style>
-    body{
+    @media screen and (max-width: 500px) {
+    body {
+        margin: 0 150px;
     }
-    #name, #info, #obj, #obj-info {
+}
+    body{
+        margin: 0 0px;
+    }
+    #name, #info {
         text-align: center;
     }
     #info{
@@ -61,15 +68,25 @@
         .date, .title{
             font-family: 'Cormorant Garamond', serif;
         }
+        .center-italic{
+            text-align: center;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
 
     <h1 id="name">Dylan B. Mahaffey</h1>
     <h3 id="info">5346 N. Callisch ∎ Fresno, CA 93710 ∎ 559.801.8442 ∎ dylan.mahaffey@gmail.com</h3>
-    <h2 id="obj">Objective</h2>
-    <p id="obj-info">To use the skills I learned as a chef such as organization, team leading, problem solving and quality control to uphold a high level of customer satisfaction as a programmer.</p>
-    <p id="obj-info">To use the skills I learned in my time as a chef,  problem solving abilities and knowledge of programming to help create innovative projects(or something more specific to the job applying for). </p>
+    <div class="section">
+        <h3 class="section-title">Objective</h3>
+        <div class="content">
+            <p>To use the skills I learned as a chef such as organization, team leading, problem solving and quality control to uphold a high level of customer satisfaction as a programmer.</p>
+            <p class="center-italic">or</p>
+            <p>To use the skills I learned in my time as a chef,  problem solving abilities and knowledge of programming to help create innovative projects(or something more specific to the job applying for). </p>
+
+        </div>
+    </div>
 
     <div class="section">
         <h3 class="section-title">Education</h3>
