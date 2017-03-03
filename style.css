@@ -1,7 +1,7 @@
 
     body{
         margin: 0 15px;
-        margin-top: 10pxl;
+        margin-top: 15px;
     }
     @media screen and (max-width: 880px) {
         body {
