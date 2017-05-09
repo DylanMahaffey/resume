@@ -1,66 +1,74 @@
 
     body{
-        /*margin: 35px 300px 80px 300px;*/
-        margin: 0 200px;
+margin: 35px 300px 80px 300px;
+/*margin: 0 200px;*/
+}
+@media screen and (max-width: 880px) {
+    body {
+        margin: 0 15px;
     }
-    @media screen and (max-width: 880px) {
-        body {
-            margin: 0 15px;
-        }
-    }
-    #name, #info {
-        text-align: center;
-    }
-    #info{
-        font-weight: normal;
-    }
-        .section{
-            width: 100%;
-            border-top: 1px solid black;
-        }
-        .section h3{
-            margin: 0;
-            text-transform: uppercase;
-        }
-        .content{
-            width: 100%;
-            margin: 10px 0;
-        }
-        .content h4 {
-            margin: 0px;
-        }
-        .content ul {
-            margin: 0;
-        }
-        .title-date{
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-        }
-        .title{
-            margin: 0;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        .date{
-            margin: 0;
-            font-size: 16px;
-            font-style: italic;
-            text-transform: capitalize;
-        }
-        .exp-cont p{
-            margin: 0;
-        }
-        li, p, #info{
-            font-family: 'Lato', sans-serif;
-        }
-        #name, #obj, .section-title{
-            font-family: 'EB Garamond', serif;
-        }
-        .date, .title{
-            font-family: 'Cormorant Garamond', serif;
-        }
-        .center-italic{
-            text-align: center;
-            font-style: italic;
-        }
+}
+.pdf-download{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+.pdf-download img {
+    width: 50px;
+}
+#name, #info {
+text-align: center;
+}
+#info{
+font-weight: normal;
+}
+.section{
+    width: 100%;
+    border-top: 1px solid black;
+}
+.section h3{
+    margin: 0;
+    text-transform: uppercase;
+}
+.content{
+    width: 100%;
+    margin: 10px 0;
+}
+.content h4 {
+    margin: 0px;
+}
+.content ul {
+    margin: 0;
+}
+.title-date{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.date{
+    margin: 0;
+    font-size: 16px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.exp-cont p{
+    margin: 0;
+}
+li, p, #info{
+    font-family: 'Lato', sans-serif;
+}
+#name, #obj, .section-title{
+    font-family: 'EB Garamond', serif;
+}
+.date, .title{
+    font-family: 'Cormorant Garamond', serif;
+}
+.center-italic{
+    text-align: center;
+    font-style: italic;
+}
