@@ -3,11 +3,6 @@
 margin: 35px 300px 80px 300px;
 /*margin: 0 200px;*/
 }
-@media screen and (max-width: 880px) {
-    body {
-        margin: 0 15px;
-    }
-}
 .pdf-download{
     position: absolute;
     top: 50px;
@@ -15,6 +10,24 @@ margin: 35px 300px 80px 300px;
 }
 .pdf-download img {
     width: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        margin: 0 15px;
+    }
+    .pdf-download{
+        position: inherit;
+        text-align: center;
+    }
+    .pdf-download img {
+        width: 50px;
+    }
+    .pdf-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 #name, #info {
 text-align: center;
